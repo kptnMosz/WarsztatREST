@@ -24,7 +24,7 @@ public class AppInitializer extends
         return new String[]{"/"};
     }
 
-    @Override
+@Override
     protected Filter[] getServletFilters() {
         CharacterEncodingFilter characterEncodingFilter =
                 new CharacterEncodingFilter();
